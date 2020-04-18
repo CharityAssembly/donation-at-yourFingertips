@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!--Favicons - http://realfavicongenerator.net/-->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="img/favicons/manifest.json">
+    <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color= "#5bbad5">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity=
+    "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel = "stylesheet" href="css/bootstrap.css">
+    <link rel = "stylesheet" href="css/fonts.css">
+    
+<!--Title-->
+<title>Photo Gallery</title>
+<!--css styling for the text and body of the page-->
+<style>
+    img
+        {
+          width:250px;
+          height:90px;
+        }
+
+      th
+        {
+          font-size: 2em;
+          background-color: lavender;
+        }
+
+      body
+          {
+            font-family: sans-serif;
+            font-size: medium;
+            text-align: center;
+            background-color: slateblue;
+          }
+
+      table
+           {
+             background-color: snow;
+             width: 60%;
+           }
+
+          td
+            {
+              padding: 25px;
+            }
+        
+        
+
+
+</style>
+
+<!--The navigational bar section-->
+<nav class = "navbar navbar-expand-sm navbar-dark bg-dark">
+  <a class = "navbar-brand" href = "#"><img src="The Charity Assembly Logo.png" width="300px" height="90px"></a>
+  <button class = "navbar-toggler" type = "button" data-toggle="collapse" data-target = "#navbarMenu">
+    <span class = "navbar-toggler-icon"></span>
+  </button>
+  <div class = "collapse navbar-collapse" id="navbarMenu">
+    <ul class = "navbar-nav ml-auto">
+      <li class = "nav-item">
+        <a class = "nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Organizations.html">Organizations</a>
+      </li>
+      <li class = "nav-item">
+        <a class="nav-link" href="About.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Location.html">Location</a>
+      </li>
+      <li class = "nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button" data-toggle="dropdown">Services</a>
+        <div class = "dropdown-menu" aria-labelledby="navbarDropdown">
+          
+          <a class="dropdown-item" href="gallery.html">Gallery</a>
+          
+          <div class="dropdown-divider"></div>
+          <a class = "dropdown-item" href="profile.html">View Our Profile</a>  
+        </div>
+      </li>
+      <li class = "nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+      <nav class="navbar navbar-light bg-light">
+        <form class="form-inline" id="searchform" class="search2" method="GET" action="">
+          <input class="form-control mr-sm-2" id="test" type="search" placeholder="Search . . ." aria-label="Search" maxlength="255">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+
+      </nav>
+
+    </ul>
+
+  </div>
+
+
+</nav>
+
+<!--java script for the search box-->
+<script type="text/javascript">
+  document.getElementById('searchform').onsubmit=function(){
+        window.location='http://www.google.com/search?q=site:  ' +  document.getElementById ('test').value; 
+        return false;
+  }
+  </script>
+
+
+</head>
+<body>
+<h1>Gallery</h1>
+
+
+
+
+<!--inserting the images in a row-->          
+      <tr>
+        <td><a href="Images1.jpg" target="_blank"><img src="Images1.jpg"></a></td>
+        <td><a href="Images2.jpg" target="_blank"><img src="Images2.jpg"></a></td>
+        <td><a href="Images3.jpg" target="_blank"><img src="Images3.jpg"></a></td>
+        <td><a href="Images4.jpg" target="_blank"><img src="Images4.jpg"></a></td>
+      </tr>
+      
+      
+      <tr>
+        <td><a href="Images5.jpg" target="_blank"><img src="Images5.jpg"></a></td>
+        <td><a href="Images6.jpg" target="_blank"><img src="Images6.jpg"></a></td>
+        <td><a href="Images7.jpg" target="_blank"><img src="Images7.jpg"></a></td>
+        <td><a href="Images8.jpg" target="_blank"><img src="Images8.jpg"></a></td>
+      </tr>
+
+      <tr>
+        <td><a href="Images9.jpg" target="_blank"><img src="Images9.jpg"></a></td>
+        <td><a href="Images10.jpg" target="_blank"><img src="Images10.jpg"></a></td>
+        <td><a href="Images11.jpg" target="_blank"><img src="Images11.jpg"></a></td>
+        <td><a href="Images12.jpg" target="_blank"><img src="Images12.jpg"></a></td>
+      </tr>
+
+      <tr>
+        <td><a href="Images13.jpg" target="_blank"><img src="Images13.jpg"></a></td>
+        <td><a href="Images14.jpg" target="_blank"><img src="Images14.jpg"></a></td>
+        <td><a href="Images15.jpg" target="_blank"><img src="Images15.jpg"></a></td>
+        <td><a href="Images16.jpg" target="_blank"><img src="Images16.jpg"></a></td>
+      </tr>
+
+      <tr>
+        <td><a href="Images17.jpg" target="_blank"><img src="Images17.jpg"></a></td>
+        <td><a href="Images18.jpg" target="_blank"><img src="Images18.jpg"></a></td>
+        <td><a href="Images19.jpg" target="_blank"><img src="Images19.jpg"></a></td>
+        <td><a href="Images20.jpg" target="_blank"><img src="Images20.jpg"></a></td>
+      </tr>
+
+      <tr>
+        <td><a href="Images21.jpg" target="_blank"><img src="Images21.jpg"></a></td>
+        <td><a href="Images22.jpg" target="_blank"><img src="Images22.jpg"></a></td>
+        <td><a href="Images23.jpg" target="_blank"><img src="Images23.jpg"></a></td>
+        <td><a href="Images24.jpg" target="_blank"><img src="Images24.jpg"></a></td>
+      </tr>
+
+      <tr>
+        <td><a href="Images25.jpg" target="_blank"><img src="Images25.jpg"></a></td>
+        <td><a href="Images26.jpg" target="_blank"><img src="Images26.jpg"></a></td>
+        <td><a href="Images27.jpg" target="_blank"><img src="Images27.jpg"></a></td>
+        <td><a href="Images28.jpg" target="_blank"><img src="Images28.jpg"></a></td>
+      </tr>
+
+      <tr>
+        <td><a href="Images30.jpg" target="_blank"><img src="Images30.jpg"></a></td>
+        <td><a href="Images31.jpg" target="_blank"><img src="Images31.jpg"></a></td>
+        <td><a href="Images32.jpg" target="_blank"><img src="Images32.jpg"></a></td>
+        <td><a href="Images33.jpg" target="_blank"><img src="Images33.jpg"></a></td>
+      </tr>
+
+      <tr>
+        <td><a href="Images34.jpg" target="_blank"><img src="Images34.jpg"></a></td>
+        <td><a href="Images35.jpg" target="_blank"><img src="Images35.jpg"></a></td>
+        <td><a href="Images36.jpg" target="_blank"><img src="Images36.jpg"></a></td>
+        <td><a href="Images37.jpg" target="_blank"><img src="Images37.jpg"></a></td>
+      </tr>
+
+      <tr>
+        <td><a href="Images38.jpg" target="_blank"><img src="Images38.jpg"></a></td>
+        <td><a href="Images39.jpg" target="_blank"><img src="Images39.jpg"></a></td>
+        <td><a href="Images40.jpg" target="_blank"><img src="Images40.jpg"></a></td>
+        <td><a href="Images41.jpg" target="_blank"><img src="Images41.jpg"></a></td>
+      </tr>
+
+      <tr>
+        <td><a href="Images42.jpg" target="_blank"><img src="Images42.jpg"></a></td>
+        <td><a href="Images43.jpg" target="_blank"><img src="Images43.jpg"></a></td>
+        <td><a href="Images44.jpg" target="_blank"><img src="Images44.jpg"></a></td>
+        <td><a href="Images45.jpg" target="_blank"><img src="Images45.jpg"></a></td>
+      </tr>
+
+      <tr>
+        <td><a href="Images46.jpg" target="_blank"><img src="Images46.jpg"></a></td>
+        <td><a href="Images47.jpg" target="_blank"><img src="Images47.jpg"></a></td>
+        <td><a href="Images48.jpg" target="_blank"><img src="Images48.jpg"></a></td>
+        <td><a href="Images49.jpg" target="_blank"><img src="Images49.jpg"></a></td>
+      </tr>
+
+      <tr>
+        <td><a href="Images50.jpg" target="_blank"><img src="Images50.jpg"></a></td>
+        <td><a href="Images51.jpg" target="_blank"><img src="Images51.jpg"></a></td>
+        <td><a href="Images52.jpg" target="_blank"><img src="Images52.jpg"></a></td>
+        <td><a href="Images53.jpg" target="_blank"><img src="Images53.jpg"></a></td>
+      </tr>
+
+      <tr>
+        <td><a href="Images54.jpg" target="_blank"><img src="Images54.jpg"></a></td>
+        <td><a href="Images55.jpg" target="_blank"><img src="Images55.jpg"></a></td>
+        <td><a href="Images56.jpg" target="_blank"><img src="Images56.jpg"></a></td>
+        <td><a href="Images57.jpg" target="_blank"><img src="Images57.jpg"></a></td>
+      </tr>
+
+      <tr>
+        <td><a href="Images58.jpg" target="_blank"><img src="Images58.jpg"></a></td>
+        <td><a href="Images59.jpg" target="_blank"><img src="Images59.jpg"></a></td>
+        <td><a href="Images60.jpg" target="_blank"><img src="Images60.jpg"></a></td>
+        <td><a href="Images61.jpg" target="_blank"><img src="Images61.jpg"></a></td>
+      </tr>
+
+      <tr>
+        <td><a href="Images62.jpg" target="_blank"><img src="Images62.jpg"></a></td>
+        <td><a href="Images63.jpg" target="_blank"><img src="Images63.jpg"></a></td>
+        <td><a href="Images64.jpg" target="_blank"><img src="Images64.jpg"></a></td>
+        <td><a href="Images65.jpg" target="_blank"><img src="Images65.jpg"></a></td>
+      </tr>
+
+      <tr>
+        <td><a href="Images66.jpg" target="_blank"><img src="Images66.jpg"></a></td>
+        <td><a href="Images67.jpg" target="_blank"><img src="Images67.jpg"></a></td>
+        <td><a href="Images68.jpg" target="_blank"><img src="Images68.jpg"></a></td>
+        <td><a href="Images69.jpg" target="_blank"><img src="Images69.jpg"></a></td>
+      </tr>
+
+      <tr>
+        <td><a href="Images70.jpg" target="_blank"><img src="Images70.jpg"></a></td>
+        <td><a href="Images71.jpg" target="_blank"><img src="Images71.jpg"></a></td>
+        <td><a href="Images72.jpg" target="_blank"><img src="Images72.jpg"></a></td>
+        <td><a href="Images73.jpg" target="_blank"><img src="Images73.jpg"></a></td>
+      </tr>
+
+      <tr>
+        <td><a href="Images70.jpg" target="_blank"><img src="Images74.jpg"></a></td>
+        <td><a href="Images71.jpg" target="_blank"><img src="Images75.jpg"></a></td>
+        <td><a href="Images72.jpg" target="_blank"><img src="Images76.jpg"></a></td>
+        <td><a href="Images73.jpg" target="_blank"><img src="Images77.jpg"></a></td>
+      </tr>
+
+      <tr>
+        <td><a href="Images70.jpg" target="_blank"><img src="Images78.jpg"></a></td>
+        <td><a href="Images71.jpg" target="_blank"><img src="Images79.jpg"></a></td>
+        <td><a href="Images72.jpg" target="_blank"><img src="Images80.jpg"></a></td>
+        <td><a href="Images73.jpg" target="_blank"><img src="Images81.jpg"></a></td>
+      </tr>
+
+      <tr>
+        <td><a href="Images70.jpg" target="_blank"><img src="Images82.jpg"></a></td>
+        <td><a href="Images71.jpg" target="_blank"><img src="Images83.jpg"></a></td>
+        <td><a href="Images72.jpg" target="_blank"><img src="Images84.jpg"></a></td>
+        <td><a href="Images73.jpg" target="_blank"><img src="Images85.jpg"></a></td>
+      </tr>
+
+      <tr>
+        <td><a href="Images70.jpg" target="_blank"><img src="Images86.jpg"></a></td>
+        <td><a href="Images71.jpg" target="_blank"><img src="Images87.jpg"></a></td>
+        <td><a href="Images72.jpg" target="_blank"><img src="Images88.jpg"></a></td>
+        <td><a href="Images73.jpg" target="_blank"><img src="Images89.jpg"></a></td>
+      </tr>
+
+      <tr>
+        <td><a href="Images70.jpg" target="_blank"><img src="Images90.jpg"></a></td>
+        <td><a href="Images71.jpg" target="_blank"><img src="Images91.jpg"></a></td>
+        <td><a href="Images72.jpg" target="_blank"><img src="Images92.jpg"></a></td>
+        <td><a href="Images73.jpg" target="_blank"><img src="Images93.jpg"></a></td>
+      </tr>
+
+      <tr>
+        <td><a href="Images70.jpg" target="_blank"><img src="Images94.jpg"></a></td>
+        <td><a href="Images71.jpg" target="_blank"><img src="Images95.jpg"></a></td>
+        <td><a href="Images72.jpg" target="_blank"><img src="Images96.jpg"></a></td>
+        <td><a href="Images73.jpg" target="_blank"><img src="Images97.jpg"></a></td>
+      </tr>
+
+      <tr>
+        <td><a href="Images70.jpg" target="_blank"><img src="Images98.jpg"></a></td>
+        <td><a href="Images71.jpg" target="_blank"><img src="Images99.jpg"></a></td>
+        <td><a href="Images72.jpg" target="_blank"><img src="Images100.jpg"></a></td>
+      </tr>
+
+      
+  
+ 
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

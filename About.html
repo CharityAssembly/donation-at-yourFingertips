@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!--Favicons - http://realfavicongenerator.net/-->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="img/favicons/manifest.json">
+    <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color= "#5bbad5">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity=
+    "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel = "stylesheet" href="css/bootstrap.css">
+    <link rel = "stylesheet" href="css/fonts.css>">
+    <link rel = "stylesheet" href="ccs/custom-style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
+<!--Title-->
+<title>About Us</title>
+<!--css styling for text and background-->
+<style type="text/css">
+
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
+    .text{
+      width: 100%;
+      height: 100vh;
+      background: url('The Charity Assembly theme.png');
+      background-size: cover;
+      background-position: bottom;
+      display: flex;
+      align-items: bottom;
+      text-align: right;
+      justify-content: bottom;
+      color: rgb(22, 20, 20);
+      font-size: 2vw; 
+    }
+
+    .w3-tangerine{
+        font-family: 'Tangerine', serif;
+        font-size: 4vw;
+        text-align: center;
+    }
+
+</style>
+
+<!--Navigational bar-->
+<nav class = "navbar navbar-expand-sm navbar-dark bg-dark">
+  <a class = "navbar-brand" href = "#"><img src="The Charity Assembly Logo.png" width="300" height="90"></a>
+  <button class = "navbar-toggler" type = "button" data-toggle="collapse" data-target = "#navbarMenu">
+    <span class = "navbar-toggler-icon"></span>
+  </button>
+  <div class = "collapse navbar-collapse" id="navbarMenu">
+    <ul class = "navbar-nav ml-auto">
+      <li class = "nav-item">
+        <a class = "nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Organizations.html">Organizations</a>
+      </li>
+      <li class = "nav-item active">
+        <a class="nav-link" href="About.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Location.html">Location</a>
+      </li>
+      <li class = "nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button" data-toggle="dropdown">Services</a>
+        <div class = "dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="gallery.html">Gallery</a>
+          <div class="dropdown-divider"></div>
+          <a class = "dropdown-item" href="profile.html">View Our Profile</a>  
+        </div>
+      </li>
+      <li class = "nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+      <nav class="navbar navbar-light bg-light">
+        <form class="form-inline" id="searchform" class="search2" method="GET" action="">
+          <input class="form-control mr-sm-2" id="test" type="search" placeholder="Search . . ." aria-label="Search" maxlength="255">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </nav>
+    </ul>
+
+  </div>
+
+</nav>
+
+<!--java script for the search box-->
+<script type="text/javascript">
+  document.getElementById('searchform').onsubmit=function(){
+        window.location='http://www.google.com/search?q=site:  ' +  document.getElementById ('test').value; 
+        return false;
+  }
+    </script>
+  
+  </head>
+  
+<body>
+
+
+<!--centering the header-->
+<div class="text">
+  <div class="text-center">
+    <h1>About Us</h1>
+
+<!--Bio about us-->
+<p class = "w3-tangerine">The Charity Assembly is a web based platforme that is created by two Gerogre Washington University's Integreated Information Science and 
+  Technology students- Getinet B-Alaemayehu and Suzan Abdalla.  The website contains 100 charity organizations, and the mission of the website is to act as a hub for charities worldwide so, that 
+  doners can access this website from their computers, tablets, and smartphones at anytime from anywhere so that they can learn about these variety of organizations and make contributions towards the cause of their choice.   
+</p>
+
+    </div>
+
+  </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
